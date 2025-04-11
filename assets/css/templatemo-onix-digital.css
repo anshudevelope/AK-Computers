@@ -1,10 +1,4 @@
 /*
-
-TemplateMo 565 Onix Digital
-
-https://templatemo.com/tm-565-onix-digital
-
-
 ------------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -296,6 +290,10 @@ header
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
+}
+
+.logo img{
+  width: 40%;
 }
 
 .background-header .main-nav .nav li:hover a {
