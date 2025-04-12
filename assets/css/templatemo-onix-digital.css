@@ -187,7 +187,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #ff695f;
+  color: #FF006C;
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
@@ -197,7 +197,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ff695f;
+  color: #FF006C;
   opacity: 0.15;
 }
 
@@ -227,12 +227,12 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #ff695f;
+  background-color: #FF006C;
 }
 
 .main-red-button a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #FF006C;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -244,7 +244,7 @@ body {
 
 .main-red-button-hover a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #FF006C;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -264,7 +264,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #ff695f;
+  color: #FF006C;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -297,11 +297,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff685f!important;
+  color: #FF006C!important;
 }
 
 .background-header .nav li a.active {
-  color: #ff685f!important;
+  color: #FF006C!important;
 }
 
 .header-area {
@@ -822,7 +822,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #ff695f;
+    background: #FF006C;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -845,7 +845,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #ff695f;
+    background: #FF006C;
     border-radius: 50%;
 }
 
@@ -896,7 +896,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #ff695f;
+  color: #FF006C;
   margin-bottom: 15px;
 }
 
@@ -913,7 +913,7 @@ Banner Style
 }
 
 .main-banner .item h2 span {
-  color: #ff695f;
+  color: #FF006C;
 }
 
 .main-banner .item p {
@@ -939,7 +939,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #ff695f;
+  color: #FF006C;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -1050,7 +1050,7 @@ Services Style
 .our-services .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #FF006C;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1104,7 +1104,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
-  color: #ff695f;
+  color: #FF006C;
 }
 
 .about-us .fact-item p {
@@ -1227,7 +1227,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #FF006C;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1251,7 +1251,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #FF006C;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1271,7 +1271,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #FF006C;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1345,7 +1345,7 @@ Pricing
 }
 
 .pricing-tables .item em {
-  color: #ff695f;
+  color: #FF006C;
   font-size: 15px;
   display: block;
   margin-top: 25px;
@@ -1355,7 +1355,7 @@ Pricing
 
 .pricing-tables .item span {
   font-size: 44px;
-  color: #ff695f;
+  color: #FF006C;
   font-weight: 700;
   display: block;
   margin-top: -5px;
@@ -1475,7 +1475,7 @@ Subscribe
 }
 
 .subscribe .inner-content form button:hover {
-  background-color: #ff695f;
+  background-color: #FF006C;
 }
 
 
@@ -1694,6 +1694,13 @@ contact
   opacity: 1;
   display: inline-flex;
   margin-right: 30px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-us .info span:hover{
+  transform: scale(1.1);
 }
 
 .contact-us .info span i {
@@ -1703,8 +1710,8 @@ contact
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: #FF006C;
+  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgb(236, 4, 120) 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;
@@ -1713,8 +1720,8 @@ contact
 }
 
 .contact-us .info span a {
-  color: #ff685f;
-  font-size: 14px;
+  color: #FF006C;
+  font-size: 16px;
   font-weight: 400;
   line-height: 25px;
   text-transform: none;
@@ -1756,7 +1763,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #FF006C;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1791,6 +1798,11 @@ footer {
   position: relative;
 }
 
+.logo-footer img{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
 footer .footer-item h4 {
   font-size: 18px;
   font-weight: 700;
@@ -1804,7 +1816,7 @@ footer .about .logo img {
 }
 
 footer .about a {
-  color: #afafaf;
+  color: #1b1919;
   font-weight: 300;
 }
 
@@ -1830,7 +1842,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #ff695f;
+  background-color: #FF006C;
 }
 
 footer .footer-item ul li {
@@ -1844,17 +1856,17 @@ footer .footer-item ul li:last-child {
 
 footer .footer-item ul li a {
   font-size: 15px;
-  color: #afafaf;
+  color: #1b1919;
   transition: all .3s;
 }
 
 footer .footer-item ul li a:hover {
-  color: #ff695f;
+  color: #FF006C;
 }
 
 footer .footer-item p {
   font-size: 15px;
-  color: #afafaf;
+  color: #1b1919;
   margin-top: -5px;
 }
 
@@ -1892,14 +1904,14 @@ footer .footer-item form button {
 footer .copyright p {
   text-align: center;
   border-top: 1px solid #eee;
-  color: #afafaf;
+  color: #000000;
   margin-top: 50px;
   padding: 20px 0px;
   font-weight: 300;
 }
 
 footer .copyright p a {
-  color: #ff695f;
+  color: #FF006C;
 }
 
 /* 
@@ -2004,7 +2016,7 @@ responsive
   }
   .subscribe .inner-content form button {
     width: 100%;
-    background-color: #ff695f;
+    background-color: #FF006C;
     margin-top: 30px;
   }
   .our-videos ul.nacc li {
