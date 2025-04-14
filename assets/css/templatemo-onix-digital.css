@@ -407,12 +407,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #FF006C!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #FF006C!important;
   opacity: 1;
 }
 
@@ -474,7 +474,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ff685f!important;
+  color: #FF006C !important;
   padding-left: 25px;
 }
 
@@ -614,7 +614,12 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff685f;
+  color: #FF006C;
+}
+
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: scale(0.9) }
 }
 
 @media (max-width: 1200px) {
@@ -647,7 +652,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff685f!important;
+    color: #FF006C!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -708,7 +713,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ff685f!important;
+    color: #FF006C!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -879,7 +884,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url(../images/hero-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -1032,9 +1037,21 @@ Services Style
 }
 
 .our-services .item .icon {
-  width: 45px;
-  height: 45px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
+}
+
+.our-services .item .icon img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+.our-services .item .icon img:hover{
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
 }
 
 .our-services .item p {
