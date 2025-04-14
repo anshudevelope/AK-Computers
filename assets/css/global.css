@@ -1447,7 +1447,18 @@ Subscribe
   margin-bottom: 25px;
 }
 
-.subscribe .inner-content form {
+.connect{
+  margin: 25px 0;
+}
+
+.subscribe .inner-content p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* .subscribe .inner-content form {
   width: 100%;
   height: 80px;
   border-radius: 40px;
@@ -1472,27 +1483,28 @@ Subscribe
 
 .subscribe .inner-content form input::placeholder {
   color: #afafaf;
-}
+} */
 
-.subscribe .inner-content form button {
+.main-button {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #ffffff;
   font-size: 15px;
-  font-weight: 400;
-  color: #fff;
+  font-weight: 700;
+  color: #FF006C;
   width: 20%;
   margin-right: 10px;
   text-transform: capitalize;
   padding: 12px 20px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: none;
+  border: 2px solid #FF006C;
   text-align: center;
   transition: all .3s;
 }
 
-.subscribe .inner-content form button:hover {
+.main-button:hover {
   background-color: #FF006C;
+  color: #fff;
 }
 
 
@@ -1806,7 +1818,7 @@ Footer Style
 
 .footer-dec {
   width: 100%;
-  margin-top: 160px;
+  margin-top: 60px;
 }
 
 footer {
@@ -1824,7 +1836,7 @@ footer .footer-item h4 {
   font-size: 18px;
   font-weight: 700;
   color: #2a2a2a;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 footer .about .logo img {
@@ -1844,18 +1856,19 @@ footer .about ul {
 footer .about ul li {
   display: inline-block !important;
   margin-right: 5px;
+  justify-content: space-between;
 }
 
 footer .about ul li a {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   background-color: #03a4ed;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
   display: inline-block;
-  line-height: 32px;
-  font-size: 15px;
+  line-height: 40px;
+  font-size: 25px;
 }
 
 footer .about ul li a:hover {
